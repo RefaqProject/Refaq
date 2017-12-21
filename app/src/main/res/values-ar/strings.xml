@@ -31,11 +31,33 @@
 
     <string name="sponsor">كفيل</string>
     <string name="Donor">متبرع</string>
-    <string name="name">عائد محمد احمد</string>
     <string name="pub_detail">lphhh</string>
     <string name="news">الاخبار</string>
     <string name="about">من نحن</string>
     <string name="programs">برامجنا</string>
     <string name="contact">اتصل بنا</string>
     <string name="out">تسجيل خروج</string>
+
+    <string name="name">الاسم</string>
+
+    <string name="sex">الجنس</string>
+
+
+    <string name="Confirm_pass">تاكيد كلمة المرور</string>
+    <string name="password">كلمه المرور</string>
+
+    <string name="Department">مقر التسجيل </string>
+    <string name="ID_Mother">رقم السجل المدني للأم</string>
+    <string name="iDD">رقم السجل المدني</string>
+
+    <string name="State">الحاله</string>
+    <string name="extent_of_need">مدي الاحتياج</string>
+    <string name="address">العنوان</string>
+    <string name="reg_poor">تسجيل محتاج</string>
+    <string name="register_family">تسجيل اسره</string>
+    <string name="regist_kafeel">تسجيل كافل</string>
+    <string name="regist_mtabr3">تسجيل متبرع</string>
+
+    <string name="Regist">تسجيل</string>
+
 </resources>
