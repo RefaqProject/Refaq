@@ -18,7 +18,7 @@ public class RegisterFakeer extends AppCompatActivity {
 
 
     Button regist;
-    EditText email,password,fullname,addrss,phone;
+    EditText name,state,need,addrss,phone;
     ProgressBar progressBar;
 
     @Override
@@ -27,11 +27,11 @@ public class RegisterFakeer extends AppCompatActivity {
         setContentView(R.layout.activity_register_fakeer);
 
 
-        email=(EditText) findViewById(R.id.email);
-        password=(EditText) findViewById(R.id.passwordet);
-        fullname=(EditText) findViewById(R.id.fullname);
-        addrss=(EditText) findViewById(R.id.addrss);
-        phone=(EditText) findViewById(R.id.phone);
+        name=(EditText) findViewById(R.id.name_poor);
+        phone=(EditText) findViewById(R.id.phone_poor);
+        addrss=(EditText) findViewById(R.id.addrss_poor);
+        need=(EditText) findViewById(R.id.need_poor);
+        state=(EditText) findViewById(R.id.state_poor);
         progressBar=(ProgressBar) findViewById(R.id.progressBar2);
 
 
@@ -39,33 +39,28 @@ public class RegisterFakeer extends AppCompatActivity {
 
         progressBar.setVisibility( INVISIBLE);
 
-        regist=(Button) findViewById(R.id.registbutton);
+        regist=(Button) findViewById(R.id.register_kafeel);
 
 
         regist.setOnClickListener(new  View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (TextUtils.isEmpty(email.getText())) {
-                    Toast.makeText( RegisterFakeer.this, "Enter email address!", Toast.LENGTH_SHORT).show();
+                if (TextUtils.isEmpty(name.getText())) {
+                    Toast.makeText( RegisterFakeer.this, "Enter name !", Toast.LENGTH_SHORT).show();
                 }
 
-                else if (TextUtils.isEmpty(password.getText())) {
-                    Toast.makeText( RegisterFakeer.this, "Enter password!", Toast.LENGTH_SHORT).show();
-                }
 
                 else if (TextUtils.isEmpty(phone.getText())) {
                     Toast.makeText( RegisterFakeer.this, "Enter phone!", Toast.LENGTH_SHORT).show();
                 }
-                else if (TextUtils.isEmpty(fullname.getText())) {
+                else if (TextUtils.isEmpty(need.getText())) {
                     Toast.makeText( RegisterFakeer.this, "Enter first name!", Toast.LENGTH_SHORT).show();
                 }
-                else if (TextUtils.isEmpty(password.getText())) {
+                else if (TextUtils.isEmpty(state.getText())) {
                     Toast.makeText( RegisterFakeer.this, "Enter last name!", Toast.LENGTH_SHORT).show();
                 }
-                else if (password.length() < 6) {
-                    Toast.makeText( RegisterFakeer.this, "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
-                }
+
                 else {
 
                     progressBar.setVisibility( VISIBLE);
