@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Refaq</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="header">Refaq</string>
+    <string name="text">Intelligent systems, particularly expert systems for diagnosis and treatment, have been developed for use in a range of medical contexts: medical practitioners</string>
+    <string name="expand_all">Expand All</string>
+    <string name="collapse_all">Collapse All</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="numprogrm">cvv</string>
+    <string name="name">عائد محمد احمد</string>
+    <string name="pub_detail">lphhh</string>
+    <string name="news">الاخبار</string>
+    <string name="about">من نحن</string>
+    <string name="programs">برامجنا</string>
+    <string name="contact">اتصل بنا</string>
+    <string name="out">تسجيل خروج</string>
+</resources>
