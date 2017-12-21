@@ -138,8 +138,6 @@
                     android:background="@drawable/edittext"
                     android:id="@+id/phone" />
 
-
-
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="40dp"

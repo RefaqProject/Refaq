@@ -12,18 +12,34 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="numprogrm">cvv</string>
-    <string name="name1">عائد محمد احمد</string>
-    <string name="pub_detail">lphhh</string>
-    <string name="news">الاخبار</string>
-    <string name="about">من نحن</string>
-    <string name="programs">برامجنا</string>
-    <string name="contact">اتصل بنا</string>
-    <string name="out">تسجيل خروج</string>
+
+<string name="name1">3aed Mohame Ahmed</string>
+<string name="pub_detail">Details Person</string>
+<string name="news">news</string>
+<string name="about">About US</string>
+<string name="programs">programs</string>
+<string name="contact"> contact US</string>
+<string name="out">Log out</string>
 
 
-    <string name="name">الاسم</string>
-    <string name="choose_mo2sas">اختر مؤسسة / فرد</string>
-    <string name="start_kafala">بداية الكفالة</string>
-    <string name="way_sadad">طريقه السداد</string>
-    <string name="type">النوع</string>
-</resources>
+<string name="name">name</string>
+<string name="How_Payment">How Payment</string>
+<string name="type">Sex</string>
+
+<string name="start_Guarantee">start Guarantee</string>
+<string name="Date_Guarantee">Date Guarantee</string>
+<string name="End_Guarantee">End Guarantee</string>
+<string name="Number_payments">Number payments</string>
+<string name="amount_Guarantee">amount Guarantee</string>
+<string name="number_Orphans_Guaranteed">number Orphans Guaranteed</string>
+<string name="ID_Number">ID Number</string>
+<string name="phone">phone</string>
+<string name="mail">mail</string>
+<string name="job">job</string>
+<string name="Nationality">Nationality</string>
+<string name="Select_Institution_Individual">Select Institution OR Individual</string>
+
+
+<string name="sponsor">sponsor</string>
+<string name="Donor">Donor</string>
+    </resources>
