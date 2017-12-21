@@ -1,5 +1,6 @@
 package com.example.elashry.refaq;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
@@ -93,13 +94,17 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.news) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
+            Intent i=new Intent(MainActivity.this,News.class);
+            startActivity(i);
         } else if (id == R.id.programs) {
-
-        } else if (id == R.id.contact) {
-
-        } else if (id == R.id.nav_send) {
+            Intent i=new Intent(MainActivity.this,IntroActivity.class);
+            startActivity(i);
+        } else if (id == R.id.about) {
+            Intent i=new Intent(MainActivity.this,IntroActivity.class);
+            startActivity(i);
+        } else if (id == R.id.out) {
+            Intent i=new Intent(MainActivity.this,IntroActivity.class);
+            startActivity(i);
 
         }
 

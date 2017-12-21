@@ -40,7 +40,10 @@
         <activity android:name=".RegisterKafeel" />
         <activity android:name=".RegisterFakeer" />
         <activity android:name=".RegisterFamily" />
-        <activity android:name=".Registermtabr3"></activity>
+        <activity android:name=".Registermtabr3" />
+        <activity android:name=".News" android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>
