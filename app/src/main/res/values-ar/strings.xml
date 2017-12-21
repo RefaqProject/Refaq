@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رفاق</string>
+    <string name="action_settings">اعدادات</string>
+    <string name="title_activity_auth">ااكتفتي</string>
+    <string name="title_activity_profile">الرئيسيه</string>
+    <string name="header">رفاق</string>
+    <string name="expand_all">شاهد الكل</string>
+    <string name="collapse_all">اخفي الكل</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="numprogrm">cvv</string>
+    <string name="name1">عائد محمد احمد</string>
+
+    <string name="How_Payment">طريقه السداد</string>
+    <string name="type">النوع</string>
+
+    <string name="start_Guarantee">بداية الكفالة</string>
+    <string name="Date_Guarantee">تاريخ الكفاله</string>
+    <string name="End_Guarantee">نهاية الكفالة</string>
+    <string name="Number_payments">عدد الدفعات</string>
+    <string name="amount_Guarantee">مبلغ الكفالة</string>
+    <string name="number_Orphans_Guaranteed">عدد الايتام المكفولين</string>
+    <string name="ID_Number">رقم الهوية</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="mail">البريد الالكتروني</string>
+    <string name="job">المهنة</string>
+    <string name="Nationality">الجنسية</string>
+    <string name="Select_Institution_Individual">اختر مؤسسة / فرد</string>
+
+    <string name="sponsor">كفيل</string>
+    <string name="Donor">متبرع</string>
+    <string name="name">عائد محمد احمد</string>
+    <string name="pub_detail">lphhh</string>
+    <string name="news">الاخبار</string>
+    <string name="about">من نحن</string>
+    <string name="programs">برامجنا</string>
+    <string name="contact">اتصل بنا</string>
+    <string name="out">تسجيل خروج</string>
+</resources>
