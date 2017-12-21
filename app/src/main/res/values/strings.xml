@@ -12,11 +12,18 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="numprogrm">cvv</string>
-    <string name="name">عائد محمد احمد</string>
+    <string name="name1">عائد محمد احمد</string>
     <string name="pub_detail">lphhh</string>
     <string name="news">الاخبار</string>
     <string name="about">من نحن</string>
     <string name="programs">برامجنا</string>
     <string name="contact">اتصل بنا</string>
     <string name="out">تسجيل خروج</string>
+
+
+    <string name="name">الاسم</string>
+    <string name="choose_mo2sas">اختر مؤسسة / فرد</string>
+    <string name="start_kafala">بداية الكفالة</string>
+    <string name="way_sadad">طريقه السداد</string>
+    <string name="type">النوع</string>
 </resources>
