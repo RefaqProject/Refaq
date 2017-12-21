@@ -27,7 +27,7 @@ public class Registermtabr3 extends AppCompatActivity {
         setContentView(R.layout.activity_registermtabr3);
 
 
-        email=(EditText) findViewById(R.id.email);
+        /*email=(EditText) findViewById(R.id.email);
         password=(EditText) findViewById(R.id.passwordet);
         fullname=(EditText) findViewById(R.id.fullname);
         addrss=(EditText) findViewById(R.id.addrss);
@@ -35,9 +35,9 @@ public class Registermtabr3 extends AppCompatActivity {
         progressBar=(ProgressBar) findViewById(R.id.progressBar2);
 
 
+*/
 
-
-        progressBar.setVisibility( INVISIBLE);
+      /*  progressBar.setVisibility( INVISIBLE);
 
         regist=(Button) findViewById(R.id.registbutton);
 
@@ -85,6 +85,6 @@ public class Registermtabr3 extends AppCompatActivity {
             }
 
 
-        });
+        });*/
     }
 }

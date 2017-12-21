@@ -27,7 +27,7 @@ public class RegisterKafeel extends AppCompatActivity {
         setContentView(R.layout.activity_register_kafeel);
 
 
-        email=(EditText) findViewById(R.id.email);
+      /*  email=(EditText) findViewById(R.id.email);
         password=(EditText) findViewById(R.id.passwordet);
         fullname=(EditText) findViewById(R.id.fullname);
         addrss=(EditText) findViewById(R.id.addrss);
@@ -36,8 +36,8 @@ public class RegisterKafeel extends AppCompatActivity {
 
 
 
-
-        progressBar.setVisibility( INVISIBLE);
+*/
+     /*   progressBar.setVisibility( INVISIBLE);
 
         regist=(Button) findViewById(R.id.registbutton);
 
@@ -85,6 +85,6 @@ public class RegisterKafeel extends AppCompatActivity {
             }
 
 
-        });
+        });*/
     }
 }
