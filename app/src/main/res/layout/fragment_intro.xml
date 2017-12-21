@@ -43,7 +43,6 @@
                 android:textSize="20dp"
                 android:layout_marginTop="74dp"
                 android:id="@+id/textView"
-
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center"/>
@@ -62,13 +61,11 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textColor="#fff"
-android:text="@string/text"
+                android:text="@string/text"
                 android:textSize="15sp"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
                 />
-
-
 
             <Button
                 android:id="@+id/getstarted"
@@ -83,9 +80,6 @@ android:text="@string/text"
                 android:layout_marginRight="60dp"
                 android:layout_marginLeft="60dp"
                 />
-
-
-
 
 
         </LinearLayout>

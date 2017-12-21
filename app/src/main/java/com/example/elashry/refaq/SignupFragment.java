@@ -20,9 +20,8 @@ import android.widget.Toast;
 public class SignupFragment extends Fragment {
 
 
-    Button regist;
-    EditText email,password,fullname,addrss,phone;
-    ProgressBar progressBar;
+    Button kafeel,mtabr3,family,fakeer;
+
 
 
 
@@ -37,63 +36,62 @@ public class SignupFragment extends Fragment {
         View view= inflater.inflate(R.layout.signupfragment,container,false);
 
 
-        email=(EditText)view.findViewById(R.id.email);
-        password=(EditText)view.findViewById(R.id.passwordet);
-        fullname=(EditText)view.findViewById(R.id.fullname);
-        addrss=(EditText)view.findViewById(R.id.addrss);
-        phone=(EditText)view.findViewById(R.id.phone);
-        progressBar=(ProgressBar)view.findViewById(R.id.progressBar2);
+        kafeel=(Button)view.findViewById(R.id.kafeelbtn);
+        mtabr3=(Button)view.findViewById(R.id.mtbar3btn);
+        family=(Button)view.findViewById(R.id.familybtn);
+        fakeer=(Button)view.findViewById(R.id.fakeerbtn);
 
 
-
-
-        progressBar.setVisibility(View.INVISIBLE);
-
-        regist=(Button)view.findViewById(R.id.registbutton);
-
-
-        regist.setOnClickListener(new View.OnClickListener() {
+        kafeel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (TextUtils.isEmpty(email.getText())) {
-                    Toast.makeText(getActivity(), "Enter email address!", Toast.LENGTH_SHORT).show();
-                }
-
-                else if (TextUtils.isEmpty(password.getText())) {
-                    Toast.makeText(getActivity(), "Enter password!", Toast.LENGTH_SHORT).show();
-                }
-
-                else if (TextUtils.isEmpty(phone.getText())) {
-                    Toast.makeText(getActivity(), "Enter phone!", Toast.LENGTH_SHORT).show();
-                }
-                else if (TextUtils.isEmpty(fullname.getText())) {
-                    Toast.makeText(getActivity(), "Enter first name!", Toast.LENGTH_SHORT).show();
-                }
-                else if (TextUtils.isEmpty(password.getText())) {
-                    Toast.makeText(getActivity(), "Enter last name!", Toast.LENGTH_SHORT).show();
-                }
-                else if (password.length() < 6) {
-                    Toast.makeText(getActivity(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
-                }
-                else {
-
-                    progressBar.setVisibility(View.VISIBLE);
-
-                     progressBar.setVisibility(View.GONE);
-
-                                    Toast.makeText(getActivity(), "Your account is added successfully." , Toast.LENGTH_SHORT).show();
-
-                    Intent i=new Intent(getActivity(),MainActivity.class);
-                    startActivity(i);
 
 
+                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                startActivity(i);
 
-
-                }
 
             }
 
+        });
+        mtabr3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+
+                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                startActivity(i);
+
+
+            }
+
+        });
+        fakeer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+
+                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                startActivity(i);
+
+
+            }
+
+        });
+        family.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+
+                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                startActivity(i);
+
+
+            }
 
         });
 

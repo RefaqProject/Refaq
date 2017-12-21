@@ -37,6 +37,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".IntroActivity" />
         </activity>
+        <activity android:name=".RegisterKafeel" />
+        <activity android:name=".RegisterFakeer" />
+        <activity android:name=".RegisterFamily" />
+        <activity android:name=".Registermtabr3"></activity>
     </application>
 
 </manifest>
