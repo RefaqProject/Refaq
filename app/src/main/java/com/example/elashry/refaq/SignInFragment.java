@@ -32,15 +32,12 @@ public class SignInFragment extends Fragment {
         super.onCreate(savedInstanceState);
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.signinfragment,container,false);
 
         progressBar=(ProgressBar)view.findViewById(R.id.progressBar1);
         progressBar.setVisibility(View.INVISIBLE);
-
-
         username=(EditText)view.findViewById(R.id.username);
         password=(EditText)view.findViewById(R.id.password);
         signinBTN=(Button)view.findViewById(R.id.signinbutton);

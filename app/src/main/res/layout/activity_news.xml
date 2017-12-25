@@ -57,16 +57,16 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:background="#fff"
+                    android:background="@drawable/back"
                     android:elevation="8dp"
                     android:padding="10dp">
 
                     <TextView
                         android:id="@+id/news_title"
                         android:layout_width="260dp"
+                        android:textColor="#fff"
                         android:layout_height="wrap_content"
-                        android:text="Lorem Ipsum Dolor Amet, Consectetur Adipiscing Elit Ipsum Dolor Amet"
-                        android:textSize="18sp"
+android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -91,16 +91,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_marginTop="10dp"
-                    android:background="#fff"
+                    android:background="@drawable/back"
                     android:elevation="8dp"
                     android:padding="10dp">
 
                     <TextView
                         android:id="@+id/news_title1"
                         android:layout_width="260dp"
+                        android:textColor="#fff"
                         android:layout_height="wrap_content"
-                        android:text="Hampden-Sydney College in Virginia, Looked up one of the Obscure Latin Words"
-                        android:textSize="18sp"
+android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -125,16 +125,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_marginTop="10dp"
-                    android:background="#fff"
+                    android:background="@drawable/back"
                     android:elevation="8dp"
                     android:padding="10dp">
 
                     <TextView
                         android:id="@+id/news_title2"
                         android:layout_width="260dp"
+                        android:textColor="#fff"
                         android:layout_height="wrap_content"
-                        android:text="Lorem Ipsum Dolor Amet, Consectetur Adipiscing Elit Ipsum Dolor Amet"
-                        android:textSize="18sp"
+android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -159,16 +159,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_marginTop="10dp"
-                    android:background="#fff"
+                    android:background="@drawable/back"
                     android:elevation="8dp"
                     android:padding="10dp">
 
                     <TextView
                         android:id="@+id/news_title3"
                         android:layout_width="260dp"
+                        android:textColor="#fff"
                         android:layout_height="wrap_content"
-                        android:text="Hampden-Sydney College in Virginia, Looked up one of the Obscure Latin Words"
-                        android:textSize="18sp"
+android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -193,16 +193,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_marginTop="10dp"
-                    android:background="#fff"
+                    android:background="@drawable/back"
                     android:elevation="8dp"
                     android:padding="10dp">
 
                     <TextView
                         android:id="@+id/news_title4"
+                        android:textColor="#fff"
                         android:layout_width="260dp"
                         android:layout_height="wrap_content"
-                        android:text="Lorem Ipsum Dolor Amet, Consectetur Adipiscing Elit Ipsum Dolor Amet"
-                        android:textSize="18sp"
+android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -227,16 +227,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_marginTop="10dp"
-                    android:background="#fff"
+                    android:background="@drawable/back"
                     android:elevation="8dp"
                     android:padding="10dp">
 
                     <TextView
                         android:id="@+id/news_title5"
+                        android:textColor="#fff"
                         android:layout_width="260dp"
                         android:layout_height="wrap_content"
-                        android:text="Hampden-Sydney College in Virginia, Looked up one of the Obscure Latin Words"
-                        android:textSize="18sp"
+android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView

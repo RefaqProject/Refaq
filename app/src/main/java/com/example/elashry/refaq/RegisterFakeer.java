@@ -39,7 +39,7 @@ public class RegisterFakeer extends AppCompatActivity {
 
         progressBar.setVisibility( INVISIBLE);
 
-        regist=(Button) findViewById(R.id.register_kafeel);
+        regist=(Button) findViewById(R.id.regist_poor);
 
 
         regist.setOnClickListener(new  View.OnClickListener() {
@@ -75,7 +75,7 @@ public class RegisterFakeer extends AppCompatActivity {
 
 
 
-                }
+             }
 
             }
 

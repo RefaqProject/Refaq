@@ -40,7 +40,7 @@ public class RegisterFamily extends AppCompatActivity {
 
         progressBar.setVisibility( INVISIBLE);
 
-        regist=(Button) findViewById(R.id.familybtn);
+        regist=(Button) findViewById(R.id.regist_family);
 
 
         regist.setOnClickListener(new  View.OnClickListener() {

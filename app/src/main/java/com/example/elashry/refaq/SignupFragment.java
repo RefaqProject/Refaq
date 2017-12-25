@@ -56,7 +56,7 @@ public class SignupFragment extends Fragment {
 
 
 
-                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                Intent i = new Intent(getActivity(), Registermtabr3.class);
                 startActivity(i);
 
 
@@ -69,7 +69,7 @@ public class SignupFragment extends Fragment {
 
 
 
-                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                Intent i = new Intent(getActivity(), RegisterFakeer.class);
                 startActivity(i);
 
 
@@ -82,7 +82,7 @@ public class SignupFragment extends Fragment {
 
 
 
-                Intent i = new Intent(getActivity(), RegisterKafeel.class);
+                Intent i = new Intent(getActivity(), RegisterFamily.class);
                 startActivity(i);
 
 

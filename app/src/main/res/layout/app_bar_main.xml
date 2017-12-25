@@ -20,76 +20,428 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/header_cover_image"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/back" />
-
-    <com.github.siyamed.shapeimageview.HexagonImageView
-        android:id="@+id/user_profile_photo"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_below="@+id/header_cover_image"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-60dp"
-        android:background="@drawable/prson"
-        android:elevation="5dp"
-        android:padding="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/prson" />
-
-    <RelativeLayout
-        android:id="@+id/profile_layout"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:layout_below="@+id/header_cover_image"
-        android:background="@color/colorPrimary"
-        android:elevation="4dp"
-        android:paddingBottom="24dp">
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.elashry.refaq.ProfileActivityFragment"
+                tools:showIn="@layout/activity_profile">
 
 
 
-        <TextView
-            android:id="@+id/user_profile_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="76dp"
-            android:text="@string/name"
-            android:textColor="#ffffff"
-            android:textSize="24sp"
-            android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/user_profile_short_bio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/user_profile_name"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"
-            android:text="@string/pub_detail"
-            android:textColor="#fff"
-            android:textSize="14sp" />
-    </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.github.florent37.diagonallayout.DiagonalLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:elevation="10dp"
+                        app:diagonal_angle="0"
+                        app:diagonal_position="bottom"
+                        app:diagonal_direction="left">
+
+                        <com.flaviofaria.kenburnsview.KenBurnsView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image1"
+                            />
 
 
 
-    </RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/back"
+                            android:orientation="vertical">
 
-    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
-        android:id="@+id/bottom_Nav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+                            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/profile_image"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/prson"
+                                app:civ_border_color="#FFf"
+                                app:civ_border_width="2dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="55dp"
 
-        ></com.aurelhubert.ahbottomnavigation.AHBottomNavigation>
+                                />
 
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textColor="#fff"
+                                android:id="@+id/name"
+                                android:text="@string/name1"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp" />
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textColor="#fff"
+                                android:text="رقم الكافل 15"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp" />
+
+
+                        </LinearLayout>
+                    </com.github.florent37.diagonallayout.DiagonalLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/btn4"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:textColor="#fff"
+                                android:padding="20dp"
+                                android:text="@string/job" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="موظف حكومى" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:textColor="#fff"
+
+                                android:padding="20dp"
+                                android:text="الجنسيه" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text=" سعودى" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:textColor="#fff"
+
+                                android:padding="20dp"
+                                android:text="رقم الجوال" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="0557496000" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:textColor="#fff"
+
+                                android:text="طريقه السداد" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text=" استقطاع" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="نوع الكفالة
+" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:textColor="#fff"
+
+                                android:padding="20dp"
+                                android:text="كفاله ماديه" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="اسم البرنامج" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="كفاله يتيم" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:textColor="#fff"
+
+                                android:padding="20dp"
+                                android:text="حالة البرنامج" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="جارى " />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn4"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:textColor="#fff"
+
+                                android:text="قيمه البرنامج" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/btn1"
+                                android:clickable="true"
+                                android:elevation="4dp"
+                                android:padding="20dp"
+                                android:text="200" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn4"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn3"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:padding="20dp"
+                            android:textColor="#fff"
+android:gravity="center"
+                            android:text=" الايتام" />
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn4"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:padding="20dp"
+                            android:textColor="#fff"
+
+                            android:text="عدد الايتام" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn1"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:padding="20dp"
+                            android:text="2" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn4"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:padding="20dp"
+                            android:textColor="#fff"
+
+                            android:text="اسم اليتيم" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn1"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:padding="20dp"
+                            android:text=" بسمه" />
+                    </LinearLayout>
+                    <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/btn4"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:padding="20dp"
+                        android:textColor="#fff"
+
+                        android:text="اسم الام" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/btn1"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:padding="20dp"
+                        android:text=" توحيده" />
+                    </LinearLayout></LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
 
     <FrameLayout
         android:id="@+id/fragmentsContainer"

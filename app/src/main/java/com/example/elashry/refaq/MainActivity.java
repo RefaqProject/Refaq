@@ -4,10 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -18,11 +14,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
-import com.aurelhubert.ahbottomnavigation.AHBottomNavigationAdapter;
-
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,11 +26,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        bottom_Nav = (AHBottomNavigation) findViewById(R.id.bottom_Nav);
 
         setSupportActionBar(toolbar);
-
-
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -97,14 +85,21 @@ public class MainActivity extends AppCompatActivity
             Intent i=new Intent(MainActivity.this,News.class);
             startActivity(i);
         } else if (id == R.id.programs) {
-            Intent i=new Intent(MainActivity.this,IntroActivity.class);
+            Intent i=new Intent(MainActivity.this,Programs.class);
             startActivity(i);
         } else if (id == R.id.about) {
+            Intent i=new Intent(MainActivity.this,About.class);
+            startActivity(i);
+        }
+        else if (id == R.id.contact) {
+            Intent i=new Intent(MainActivity.this,CallUs.class);
+            startActivity(i);
+
+
+        }else if (id == R.id.out) {
             Intent i=new Intent(MainActivity.this,IntroActivity.class);
             startActivity(i);
-        } else if (id == R.id.out) {
-            Intent i=new Intent(MainActivity.this,IntroActivity.class);
-            startActivity(i);
+
 
         }
 
