@@ -151,7 +151,7 @@ android:text="تعد الجمعيات الخيرية إحدى مؤسسات ال�
                         android:layout_marginLeft="5dp"
                         android:layout_toRightOf="@+id/news_title2"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/profilepic" />
+                        android:src="@drawable/profile" />
 
                 </RelativeLayout>
 
