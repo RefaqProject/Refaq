@@ -54,208 +54,280 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <RelativeLayout
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@drawable/back"
                     android:elevation="8dp"
+                    android:orientation="horizontal"
                     android:padding="10dp">
-
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
                     <TextView
                         android:id="@+id/news_title"
                         android:layout_width="260dp"
                         android:textColor="#fff"
                         android:layout_height="wrap_content"
-android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                        android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/news_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/news_title"
                         android:layout_marginTop="10dp"
                         android:text="30 min ago" />
+                    </LinearLayout>
 
                     <ImageView
-                        android:layout_width="140dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
                         android:layout_height="90dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_toRightOf="@+id/news_title"
                         android:scaleType="centerCrop"
                         android:src="@drawable/image1" />
 
-                </RelativeLayout>
-
-                <RelativeLayout
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/back"
                     android:elevation="8dp"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/news_title1"
+                            android:layout_width="260dp"
+                            android:textColor="#fff"
+                            android:layout_height="wrap_content"
+                            android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                            android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/news_title1"
-                        android:layout_width="260dp"
-                        android:textColor="#fff"
-                        android:layout_height="wrap_content"
-android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/news_time1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/news_title1"
-                        android:layout_marginTop="10dp"
-                        android:text="1 hr ago" />
+                        <TextView
+                            android:id="@+id/news_time1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="30 min ago" />
+                    </LinearLayout>
 
                     <ImageView
-                        android:layout_width="140dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
                         android:layout_height="90dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_toRightOf="@+id/news_title1"
                         android:scaleType="centerCrop"
                         android:src="@drawable/prson" />
 
-                </RelativeLayout>
-
-                <RelativeLayout
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/back"
                     android:elevation="8dp"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/news_title2"
+                            android:layout_width="260dp"
+                            android:textColor="#fff"
+                            android:layout_height="wrap_content"
+                            android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                            android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/news_title2"
-                        android:layout_width="260dp"
-                        android:textColor="#fff"
-                        android:layout_height="wrap_content"
-android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/news_time2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/news_title2"
-                        android:layout_marginTop="10dp"
-                        android:text="2 hr ago" />
+                        <TextView
+                            android:id="@+id/news_time2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="30 min ago" />
+                    </LinearLayout>
 
                     <ImageView
-                        android:layout_width="140dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
                         android:layout_height="90dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_toRightOf="@+id/news_title2"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/profile" />
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/back"
-                    android:elevation="8dp"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/news_title3"
-                        android:layout_width="260dp"
-                        android:textColor="#fff"
-                        android:layout_height="wrap_content"
-android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/news_time3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/news_title3"
-                        android:layout_marginTop="10dp"
-                        android:text="5 hr ago" />
-
-                    <ImageView
-                        android:layout_width="140dp"
-                        android:layout_height="90dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_toRightOf="@+id/news_title3"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/profile" />
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/back"
-                    android:elevation="8dp"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/news_title4"
-                        android:textColor="#fff"
-                        android:layout_width="260dp"
-                        android:layout_height="wrap_content"
-android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/news_time4"
-                        android:layout_width="250dp"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/news_title4"
-                        android:layout_marginTop="10dp"
-                        android:text="18 hr ago" />
-
-                    <ImageView
-                        android:layout_width="140dp"
-                        android:layout_height="90dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_toRightOf="@+id/news_title4"
                         android:scaleType="centerCrop"
                         android:src="@drawable/cover" />
 
-                </RelativeLayout>
-
-                <RelativeLayout
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/back"
                     android:elevation="8dp"
+                    android:orientation="horizontal"
                     android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/news_title3"
+                            android:layout_width="260dp"
+                            android:textColor="#fff"
+                            android:layout_height="wrap_content"
+                            android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                            android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/news_title5"
-                        android:textColor="#fff"
-                        android:layout_width="260dp"
-                        android:layout_height="wrap_content"
-android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/news_time5"
-                        android:layout_width="250dp"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/news_title5"
-                        android:layout_marginTop="10dp"
-                        android:text="1 day ago" />
+                        <TextView
+                            android:id="@+id/news_time3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="30 min ago" />
+                    </LinearLayout>
 
                     <ImageView
-                        android:layout_width="140dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
                         android:layout_height="90dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_toRightOf="@+id/news_title5"
                         android:scaleType="centerCrop"
                         android:src="@drawable/image1" />
 
-                </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/back"
+                    android:elevation="8dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/news_title4"
+                            android:layout_width="260dp"
+                            android:textColor="#fff"
+                            android:layout_height="wrap_content"
+                            android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_time4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="30 min ago" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="90dp"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/prson" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/back"
+                    android:elevation="8dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/news_title5"
+                            android:layout_width="260dp"
+                            android:textColor="#fff"
+                            android:layout_height="wrap_content"
+                            android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_time5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="30 min ago" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="90dp"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/image1" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/back"
+                    android:elevation="8dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"                        android:layout_height="120dp"
+                        android:background="@drawable/back"
+                        android:elevation="8dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/news_title6"
+                            android:layout_width="260dp"
+                            android:textColor="#fff"
+                            android:layout_height="wrap_content"
+                            android:text="تعد الجمعيات الخيرية إحدى مؤسسات المجتمع المدني التي تهدف إلى استثمار المساعدات الممنوحة من قبل الشركات والتجار والأغنياء"                        android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_time6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="30 min ago" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="90dp"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/image1" />
+
+                </LinearLayout>
+
 
             </LinearLayout>
 

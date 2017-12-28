@@ -17,13 +17,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@android:color/white"
+        android:background="@drawable/back"
         android:fitsSystemWindows="true"
-        app:itemBackground="@android:color/white"
+        app:itemBackground="@drawable/back"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"
-        app:arc_cropDirection="cropOutside"
-        app:arc_width="96dp"/>
+        />
 
 
 </android.support.v4.widget.DrawerLayout>

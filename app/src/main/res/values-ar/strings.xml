@@ -43,6 +43,9 @@
     <string name="sex">الجنس</string>
 
     <string name="text">كل عام، تطلق "رفاق الخيرية" جملة من المشاريع خلال الشهر الفضيل، منها إفطار للمحتاجين، وتوفير سلة رمضان، وطباعة المصاحف، وسُقيا المصلين، وتوزيع زكاة الفطر والصدقات.</string>
+    <string name="callus">اتصل بنا</string>
+    <string name="message">اترك رسالتك</string>
+    <string name="send">ارسل</string>
 
     <string name="Confirm_pass">تاكيد كلمة المرور</string>
     <string name="password">كلمه المرور</string>
@@ -61,5 +64,7 @@
 
     <string name="Regist">تسجيل</string>
     <string name="start">أبدا</string>
-
+    <string name="signin">تسجيل دخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="Continue">دخول</string>
 </resources>     

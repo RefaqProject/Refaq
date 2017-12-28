@@ -48,7 +48,9 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".About" />
         <activity android:name=".Programs" />
-        <activity android:name=".CallUs"></activity>
+        <activity android:name=".CallUs" android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>

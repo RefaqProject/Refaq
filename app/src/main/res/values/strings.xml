@@ -64,6 +64,9 @@
     <string name="send">SEND</string>
     <string name="callus">Call Us</string>
     <string name="start">Get started</string>
+    <string name="signin">Sign in</string>
+    <string name="username">Username</string>
+    <string name="Continue">Continue</string>
 
 
 </resources>
