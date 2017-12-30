@@ -327,8 +327,6 @@
                         android:src="@drawable/image1" />
 
                 </LinearLayout>
-
-
             </LinearLayout>
 
         </ScrollView>

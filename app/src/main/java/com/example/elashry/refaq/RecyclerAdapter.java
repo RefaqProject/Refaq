@@ -103,7 +103,6 @@ private static Context mContext;
 
         }
 
-
     }
 
 }
