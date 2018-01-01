@@ -14,54 +14,50 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 
-
 public class SignInFragment extends Fragment {
 
-    public SignInFragment(){
-        Log.i("sign in","Fragment one");
+    public SignInFragment() {
+        Log.i("sign in", "Fragment one");
     }
 
-    EditText username,password;
+    EditText username, password;
     Button signinBTN;
 
     ProgressBar progressBar;
 
 
     @Override
-    public void onCreate( Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view= inflater.inflate(R.layout.signinfragment,container,false);
+        View view = inflater.inflate(R.layout.signinfragment, container, false);
 
-        progressBar=(ProgressBar)view.findViewById(R.id.progressBar1);
+        progressBar = (ProgressBar) view.findViewById(R.id.progressBar1);
         progressBar.setVisibility(View.INVISIBLE);
-        username=(EditText)view.findViewById(R.id.username);
-        password=(EditText)view.findViewById(R.id.password);
-        signinBTN=(Button)view.findViewById(R.id.signinbutton);
+        username = (EditText) view.findViewById(R.id.username);
+        password = (EditText) view.findViewById(R.id.password);
+        signinBTN = (Button) view.findViewById(R.id.signinbutton);
         signinBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (TextUtils.isEmpty(username.getText())) {
+                if (username.getText().equals("family") && password.getText().equals("123")) {
+                    Intent i = new Intent(getActivity(), Family.class);
+                    startActivity(i);
+                } else if (TextUtils.isEmpty(username.getText())) {
                     Toast.makeText(getActivity(), "Enter username !", Toast.LENGTH_SHORT).show();
-
-                }
-
-                else if (TextUtils.isEmpty(password.getText())) {
+                } else if (TextUtils.isEmpty(password.getText())) {
                     Toast.makeText(getActivity(), "Enter password!", Toast.LENGTH_SHORT).show();
-
-                }else {
+                } else {
 
                     progressBar.setVisibility(View.VISIBLE);
+                    Toast.makeText(getActivity(), "Login successfully", Toast.LENGTH_LONG).show();
 
-
-                                        Toast.makeText(getActivity(),"Login successfully", Toast.LENGTH_LONG).show();
-
-                                        Intent i=new Intent(getActivity(),MainActivity.class);
-                                        startActivity(i);
+                    Intent i = new Intent(getActivity(), MainActivity.class);
+                    startActivity(i);
 
 
                 }

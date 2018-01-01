@@ -50,7 +50,6 @@ public class RegisterFamily extends AppCompatActivity {
                 if (TextUtils.isEmpty(name.getText())) {
                     Toast.makeText( RegisterFamily.this, "Enter name !", Toast.LENGTH_SHORT).show();
                 }
-
                 else if (TextUtils.isEmpty(id.getText())) {
                     Toast.makeText( RegisterFamily.this, "Enter id!", Toast.LENGTH_SHORT).show();
                 }
