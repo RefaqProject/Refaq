@@ -58,7 +58,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم السجل المدني للام"
+                    android:text="@string/number_electric"
 
                     android:textColor="#fff" />
 
@@ -81,7 +81,7 @@
 
                     android:background="@drawable/btn1"
 
-                    android:text=" بسمه"
+                    android:text=" حائل"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
@@ -93,7 +93,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="اسم المستخدم"
+                    android:text="@string/address"
 
                     android:textColor="#fff" />
 
@@ -115,7 +115,7 @@
                     android:gravity="center"
                     android:background="@drawable/btn1"
 
-                    android:text=" 39823232"
+                    android:text=" مسلح"
 
                     android:textColor="@color/colorPrimary" />
 
@@ -128,7 +128,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم الجوال"
+                    android:text="@string/type_place"
 
 
                     android:textColor="#fff" />
@@ -151,7 +151,7 @@
                     android:gravity="center"
 
                     android:elevation="4dp"
-                    android:text=" اضغط هنا "
+                    android:text="  يحتاج لترميم "
 
                     android:textColor="@color/colorPrimary" />
 
@@ -164,7 +164,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="تغير كلمه المرور"
+                    android:text="@string/State"
 
 
                     android:textColor="#fff" />
@@ -175,7 +175,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
 
-                android:layout_marginTop="70dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -200,7 +199,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم السجل المدني للام"
+                    android:text="@string/number_rooms"
 
                     android:textColor="#fff" />
 
@@ -223,7 +222,7 @@
 
                     android:background="@drawable/btn1"
 
-                    android:text=" بسمه"
+                    android:text="ايجار"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
@@ -235,83 +234,13 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="اسم المستخدم"
-
+                    android:text="@string/have_home"
                     android:textColor="#fff" />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:clickable="true"
-                    android:elevation="4dp"
-                    android:gravity="center"
-                    android:background="@drawable/btn1"
-
-                    android:text=" 39823232"
-
-                    android:textColor="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:background="@drawable/btn4"
-                    android:clickable="true"
-                    android:elevation="4dp"
-                    android:text="رقم الجوال"
 
 
-                    android:textColor="#fff" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:clickable="true"
-                    android:background="@drawable/btn1"
-                    android:gravity="center"
-
-                    android:elevation="4dp"
-                    android:text=" اضغط هنا "
-
-                    android:textColor="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:layout_margin="5dp"
-                    android:gravity="center"
-                    android:layout_weight="1"
-                    android:background="@drawable/btn4"
-                    android:clickable="true"
-                    android:elevation="4dp"
-                    android:text="تغير كلمه المرور"
-
-
-                    android:textColor="#fff" />
-
-            </LinearLayout>
         </LinearLayout>
     </com.github.florent37.diagonallayout.DiagonalLayout>
 </android.support.constraint.ConstraintLayout>

@@ -67,4 +67,8 @@
     <string name="signin">تسجيل دخول</string>
     <string name="username">اسم المستخدم</string>
     <string name="Continue">دخول</string>
+    <string name="number_electric">رقم حساب فاتوره الكهرباء</string>
+    <string name="type_place">نوع السكن</string>
+    <string name="number_rooms">عدد الغرف</string>
+    <string name="have_home">ملكية السكن</string>
 </resources>     

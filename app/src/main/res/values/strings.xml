@@ -86,6 +86,10 @@
     <string name="Birth_day">تاريخ الميلاد</string>
     <string name="Death_day">تاريخ الوفاه</string>
     <string name="father">الاب</string>
+    <string name="number_electric">رقم حساب فاتوره الكهرباء</string>
+    <string name="type_place">نوع السكن</string>
+    <string name="number_rooms">عدد الغرف</string>
+    <string name="have_home">ملكية السكن</string>
 
 
 </resources>
