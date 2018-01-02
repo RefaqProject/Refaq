@@ -84,7 +84,12 @@
     <string name="num_sons">عدد الابناء</string>
     <string name="Cause_death">سبب الوفاه</string>
     <string name="Mother">الام</string>
+    <string name="retire">مبلغ التقاعد</string>
+    <string name="money_dman">مبلغ الضمان</string>
+    <string name="name_bank">إسم البنك</string>
+    <string name="name_person">الإسم المعتمد للحساب</string>
+    <string name="number_person">رقم الحساب</string>
+    <string name="year">مقدار العادة السنوية</string>
 
 
-
-</resources>     
+</resources>

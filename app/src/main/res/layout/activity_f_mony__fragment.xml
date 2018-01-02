@@ -49,7 +49,7 @@
                     android:gravity="center"
                     android:background="@drawable/btn1"
 
-                    android:text="2"
+                    android:text="220"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
@@ -61,7 +61,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم السجل المدني للام"
+                    android:text="@string/retire"
 
                     android:textColor="#fff" />
 
@@ -84,7 +84,7 @@
 
                     android:background="@drawable/btn1"
 
-                    android:text=" بسمه"
+                    android:text=" 2000"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
@@ -96,7 +96,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="اسم المستخدم"
+                    android:text="@string/money_dman"
 
                     android:textColor="#fff" />
 
@@ -118,7 +118,7 @@
                     android:gravity="center"
                     android:background="@drawable/btn1"
 
-                    android:text=" 39823232"
+                    android:text="البنك السعودى المتحد "
 
                     android:textColor="@color/colorPrimary" />
 
@@ -131,7 +131,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم الجوال"
+                    android:text="@string/name_bank"
 
 
                     android:textColor="#fff" />
@@ -154,7 +154,7 @@
                     android:gravity="center"
 
                     android:elevation="4dp"
-                    android:text=" اضغط هنا "
+                    android:text="  توحيده احمد زكي "
 
                     android:textColor="@color/colorPrimary" />
 
@@ -167,11 +167,82 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="تغير كلمه المرور"
+                    android:text="@string/name_person"
 
 
                     android:textColor="#fff" />
 
-            </LinearLayout></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/btn1"
+                    android:gravity="center"
+
+                    android:elevation="4dp"
+                    android:text="2280000118608011250 "
+
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/number_person"
+
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/btn1"
+                    android:gravity="center"
+
+                    android:elevation="4dp"
+                    android:text="100000 "
+
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/year"
+
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+        </LinearLayout>
     </com.github.florent37.diagonallayout.DiagonalLayout>
 </android.support.constraint.ConstraintLayout>
