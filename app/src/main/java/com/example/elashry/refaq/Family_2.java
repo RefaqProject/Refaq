@@ -32,6 +32,11 @@ public class Family_2 extends AppCompatActivity {
         if (bottomNavigation.getCurrentItem()==0)
         {
 
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.fragmentsContainer,new F_Main_Fragment())
+                    .commit();
+
         }
         bottomNavigation.setOnTabSelectedListener(new AHBottomNavigation.OnTabSelectedListener() {
             @Override
@@ -42,7 +47,7 @@ public class Family_2 extends AppCompatActivity {
                     bottomNavigation.setCurrentItem(position,false);
                     getSupportFragmentManager()
                             .beginTransaction()
-                            .replace(R.id.fragmentsContainer,new F_Family_Fragment())
+                            .replace(R.id.fragmentsContainer,new F_Main_Fragment())
                             .commit();
 
 
@@ -67,12 +72,22 @@ public class Family_2 extends AppCompatActivity {
 
                     bottomNavigation.setCurrentItem(position,false);
 
+                    getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.fragmentsContainer,new F_home_Fragment())
+                            .commit();
+
 
                 }
                 else if (position==3)
                 {
 
                     bottomNavigation.setCurrentItem(position,false);
+
+                    getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.fragmentsContainer,new F_mony_Fragment())
+                            .commit();
 
 
                 }
@@ -81,6 +96,11 @@ public class Family_2 extends AppCompatActivity {
                 {
 
                     bottomNavigation.setCurrentItem(position,false);
+
+                    getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.fragmentsContainer,new F_Family_Fragment())
+                            .commit();
 
 
                 }

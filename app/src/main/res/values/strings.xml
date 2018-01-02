@@ -85,6 +85,7 @@
     <string name="family_name">اسم العائله</string>
     <string name="Birth_day">تاريخ الميلاد</string>
     <string name="Death_day">تاريخ الوفاه</string>
+    <string name="father">الاب</string>
 
 
 </resources>
