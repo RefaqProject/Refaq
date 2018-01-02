@@ -31,12 +31,21 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn3"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="هاجر"
+                android:textColor="#fff" />
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
 
-                android:layout_marginTop="70dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -49,7 +58,7 @@
                     android:gravity="center"
                     android:background="@drawable/btn1"
 
-                    android:text="2"
+                    android:text="توحيده احمد زكي ابو طالب"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
@@ -61,7 +70,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم السجل المدني للام"
+                    android:text="@string/Mother"
 
                     android:textColor="#fff" />
 
@@ -84,7 +93,7 @@
 
                     android:background="@drawable/btn1"
 
-                    android:text=" بسمه"
+                    android:text=" 2222221"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
@@ -96,7 +105,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="اسم المستخدم"
+                    android:text="@string/ID_Number"
 
                     android:textColor="#fff" />
 
@@ -118,7 +127,7 @@
                     android:gravity="center"
                     android:background="@drawable/btn1"
 
-                    android:text=" 39823232"
+                    android:text=" انثي"
 
                     android:textColor="@color/colorPrimary" />
 
@@ -131,7 +140,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="رقم الجوال"
+                    android:text="@string/sex"
 
 
                     android:textColor="#fff" />
@@ -154,7 +163,7 @@
                     android:gravity="center"
 
                     android:elevation="4dp"
-                    android:text=" اضغط هنا "
+                    android:text="16"
 
                     android:textColor="@color/colorPrimary" />
 
@@ -167,11 +176,235 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="تغير كلمه المرور"
+                    android:text="@string/age"
 
 
                     android:textColor="#fff" />
 
-            </LinearLayout></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/btn1"
+                    android:gravity="center"
+
+                    android:elevation="4dp"
+                    android:text="طالب"
+
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/job"
+
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn3"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="بسمه"
+                android:textColor="#fff" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/btn1"
+
+                    android:text="توحيده احمد زكي ابو طالب"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/Mother"
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+
+                    android:background="@drawable/btn1"
+
+                    android:text=" 3443546"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/ID_Number"
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/btn1"
+
+                    android:text=" انثي"
+
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/sex"
+
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/btn1"
+                    android:gravity="center"
+
+                    android:elevation="4dp"
+                    android:text="23"
+
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/age"
+
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/btn1"
+                    android:gravity="center"
+
+                    android:elevation="4dp"
+                    android:text="خريج"
+
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn4"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:text="@string/job"
+
+
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+        </LinearLayout>
     </com.github.florent37.diagonallayout.DiagonalLayout>
 </android.support.constraint.ConstraintLayout>

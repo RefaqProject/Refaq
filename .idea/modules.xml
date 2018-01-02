@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Refaq.iml" filepath="$PROJECT_DIR$/Refaq.iml" />
+      <module fileurl="file://D:/android2/all/Refaq/Refaq.iml" filepath="D:/android2/all/Refaq/Refaq.iml" />
       <module fileurl="file://C:\Users\ok\Desktop\Refaq\Refaq.iml" filepath="C:\Users\ok\Desktop\Refaq\Refaq.iml" />
-      <module fileurl="file://D:\android2\all\Refaq\Refaq.iml" filepath="D:\android2\all\Refaq\Refaq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\android2\all\Refaq\app\app.iml" filepath="D:\android2\all\Refaq\app\app.iml" />
+      <module fileurl="file://D:/android2/all/Refaq/app/app.iml" filepath="D:/android2/all/Refaq/app/app.iml" />
       <module fileurl="file://C:\Users\ok\Desktop\Refaq\app\app.iml" filepath="C:\Users\ok\Desktop\Refaq\app\app.iml" />
     </modules>
   </component>

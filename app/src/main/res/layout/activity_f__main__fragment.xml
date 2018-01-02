@@ -167,7 +167,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="تغير كلمه المرور"
+                    android:text="@string/change_password"
 
 
                     android:textColor="#fff" />

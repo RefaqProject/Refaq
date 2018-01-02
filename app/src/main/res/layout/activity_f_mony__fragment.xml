@@ -61,7 +61,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="@string/retire"
+                    android:text="@string/amount_retirement"
 
                     android:textColor="#fff" />
 

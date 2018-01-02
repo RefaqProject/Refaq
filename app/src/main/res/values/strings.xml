@@ -34,23 +34,26 @@
     <string name="number_Orphans_Guaranteed">number Orphans Guaranteed</string>
     <string name="ID_Number">ID Number</string>
     <string name="phone">phone</string>
+
+    <string name="amount_retirement">Amount  retirement</string>
+    <string name="amount_guarantee">amount guarantee</string>
+    <string name="name_bank">The Bank</string>
+    <string name="name_person">name person acount</string>
+    <string name="ID_acount">ID acount</string>
+    <string name="Annual_amount">Annual amount</string>
+
+
     <string name="mail">mail</string>
     <string name="job">job</string>
     <string name="Nationality">Nationality</string>
     <string name="Select_Institution_Individual">Select Institution OR Individual</string>
-
-
     <string name="sponsor">sponsor</string>
     <string name="Donor">Donor</string>
-
     <string name="Confirm_pass">Confirm password</string>
     <string name="password">Password</string>
-
     <string name="Department">Department</string>
     <string name="ID_Mother">ID Mother</string>
-
     <string name="iDD">ID</string>
-
     <string name="State">State</string>
     <string name="extent_of_need">the extent of need</string>
     <string name="address">Address</string>
@@ -60,33 +63,25 @@
     <string name="regist_kafeel">Register Sponsor</string>
     <string name="regist_mtabr3">Register Donor</string>
     <string name="message">Leave Your Message</string>
-
     <string name="send">SEND</string>
     <string name="callus">Call Us</string>
     <string name="start">Get started</string>
     <string name="signin">Sign in</string>
     <string name="username">Username</string>
     <string name="Continue">Continue</string>
-
     <string name="tab_1">Label 1</string>
     <string name="tab_2">Label 2</string>
     <string name="tab_3">Label 3</string>
     <string name="tab_4">Label 4</string>
     <string name="tab_5">Label 5</string>
-
     <string name="menu_1">Menu 1</string>
     <string name="menu_2">Menu 2</string>
     <string name="menu_3">Menu 3</string>
     <string name="menu_4">Menu 4</string>
     <string name="menu_5">Menu 5</string>
-
-
-
-
     <string name="num_sons">Number sons</string>
-    <string name="Cause_death"> Cause Death</string>
+    <string name="Cause_death">Cause Death</string>
     <string name="Mother">Mother</string>
-
     <string name="first_name">First Name</string>
     <string name="father_name">Father Name</string>
     <string name="grand_father_name">Grand Father Name</string>
@@ -94,14 +89,9 @@
     <string name="Birth_day">Birth Day</string>
     <string name="Death_day">Death Day</string>
     <string name="father">Father</string>
-
     <string name="Social_status">Social status</string>
-    <string name="retire">مبلغ التقاعد</string>
-    <string name="money_dman">مبلغ الضمان</string>
-    <string name="name_bank">إسم البنك</string>
-    <string name="name_person">الإسم المعتمد للحساب</string>
-    <string name="number_person">رقم الحساب</string>
-    <string name="year">مقدار العادة السنوية</string>
+    <string name="change_password">Change Password</string>
+    <string name="age">Age</string>
 
 
 </resources>

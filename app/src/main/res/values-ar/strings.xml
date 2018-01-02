@@ -42,18 +42,27 @@
 
     <string name="sex">الجنس</string>
 
+
+
+
+
+    <string name="amount_retirement">مبلغ التقاعد</string>
+    <string name="money_dman">مبلغ الضمان</string>
+    <string name="name_bank">إسم البنك</string>
+    <string name="name_person">الإسم المعتمد للحساب</string>
+    <string name="number_person">رقم الحساب</string>
+    <string name="year">مقدار العادة السنوية</string>
+
+
     <string name="text">كل عام، تطلق "رفاق الخيرية" جملة من المشاريع خلال الشهر الفضيل، منها إفطار للمحتاجين، وتوفير سلة رمضان، وطباعة المصاحف، وسُقيا المصلين، وتوزيع زكاة الفطر والصدقات.</string>
     <string name="callus">اتصل بنا</string>
     <string name="message">اترك رسالتك</string>
     <string name="send">ارسل</string>
-
     <string name="Confirm_pass">تاكيد كلمة المرور</string>
     <string name="password">كلمه المرور</string>
-
-    <string name="Department">مقر التسجيل </string>
+    <string name="Department">مقر التسجيل</string>
     <string name="ID_Mother">رقم السجل المدني للأم</string>
     <string name="iDD">رقم السجل المدني</string>
-
     <string name="State">الحاله</string>
     <string name="Social_status">الحاله الاجتماعيه</string>
     <string name="extent_of_need">مدي الاحتياج</string>
@@ -62,7 +71,6 @@
     <string name="register_family">تسجيل اسره</string>
     <string name="regist_kafeel">تسجيل كافل</string>
     <string name="regist_mtabr3">تسجيل متبرع</string>
-
     <string name="Regist">تسجيل</string>
     <string name="start">أبدا</string>
     <string name="signin">تسجيل دخول</string>
@@ -79,17 +87,13 @@
     <string name="Birth_day">تاريخ الميلاد</string>
     <string name="Death_day">تاريخ الوفاه</string>
     <string name="father">الاب</string>
-
-
     <string name="num_sons">عدد الابناء</string>
     <string name="Cause_death">سبب الوفاه</string>
     <string name="Mother">الام</string>
-    <string name="retire">مبلغ التقاعد</string>
-    <string name="money_dman">مبلغ الضمان</string>
-    <string name="name_bank">إسم البنك</string>
-    <string name="name_person">الإسم المعتمد للحساب</string>
-    <string name="number_person">رقم الحساب</string>
-    <string name="year">مقدار العادة السنوية</string>
+
+    <string name="change_password">تغير كلمه المرورو</string>
+    <string name="age">العمر</string>
+
 
 
 </resources>
