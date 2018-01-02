@@ -53,11 +53,7 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".Family" />
         <activity android:name=".IntroActivity" />
-        <activity android:name=".F_Father_Fragment" />
-        <activity android:name=".F_Main_Fragment" />
-        <activity android:name=".F_Family_Fragment" />
-        <activity android:name=".F_mony_Fragment" />
-        <activity android:name=".F_home_Fragment"></activity>
+
     </application>
 
 </manifest>
