@@ -79,17 +79,24 @@
     <string name="menu_3">Menu 3</string>
     <string name="menu_4">Menu 4</string>
     <string name="menu_5">Menu 5</string>
-    <string name="first_name">الاسم الاول</string>
-    <string name="father_name">اسم الاب</string>
-    <string name="grand_father_name">اسم الجد</string>
-    <string name="family_name">اسم العائله</string>
-    <string name="Birth_day">تاريخ الميلاد</string>
-    <string name="Death_day">تاريخ الوفاه</string>
-    <string name="father">الاب</string>
-    <string name="number_electric">رقم حساب فاتوره الكهرباء</string>
-    <string name="type_place">نوع السكن</string>
-    <string name="number_rooms">عدد الغرف</string>
-    <string name="have_home">ملكية السكن</string>
+
+
+
+
+    <string name="num_sons">Number sons</string>
+    <string name="Cause_death"> Cause Death</string>
+    <string name="Mother">Mother</string>
+
+    <string name="first_name">First Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="grand_father_name">Grand Father Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="Birth_day">Birth Day</string>
+    <string name="Death_day">Death Day</string>
+    <string name="father">Father</string>
+
+    <string name="Social_status">Social status</string>
+
 
 
 </resources>

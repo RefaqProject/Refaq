@@ -55,6 +55,7 @@
     <string name="iDD">رقم السجل المدني</string>
 
     <string name="State">الحاله</string>
+    <string name="Social_status">الحاله الاجتماعيه</string>
     <string name="extent_of_need">مدي الاحتياج</string>
     <string name="address">العنوان</string>
     <string name="reg_poor">تسجيل محتاج</string>
@@ -71,4 +72,19 @@
     <string name="type_place">نوع السكن</string>
     <string name="number_rooms">عدد الغرف</string>
     <string name="have_home">ملكية السكن</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="father_name">اسم الاب</string>
+    <string name="grand_father_name">اسم الجد</string>
+    <string name="family_name">اسم العائله</string>
+    <string name="Birth_day">تاريخ الميلاد</string>
+    <string name="Death_day">تاريخ الوفاه</string>
+    <string name="father">الاب</string>
+
+
+    <string name="num_sons">عدد الابناء</string>
+    <string name="Cause_death">سبب الوفاه</string>
+    <string name="Mother">الام</string>
+
+
+
 </resources>     
