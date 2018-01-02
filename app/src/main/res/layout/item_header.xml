@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="@dimen/standard_padding"
-        android:src="@drawable/fac"/>
+     />
 
     <TextView android:id="@+id/item_header_name"
         tools:text="Group Name"

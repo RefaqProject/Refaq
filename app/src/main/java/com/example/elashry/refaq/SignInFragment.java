@@ -56,7 +56,7 @@ public class SignInFragment extends Fragment {
                     progressBar.setVisibility(View.VISIBLE);
                     Toast.makeText(getActivity(), "Login successfully", Toast.LENGTH_LONG).show();
 
-                    Intent i = new Intent(getActivity(), MainActivity.class);
+                    Intent i = new Intent(getActivity(), Family.class);
                     startActivity(i);
 
 

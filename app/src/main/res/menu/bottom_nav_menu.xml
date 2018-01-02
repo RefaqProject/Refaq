@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/iconn"
+        android:title="البيانات الاساسيه"/>
+
+    <item
+        android:id="@+id/action_five"
+        android:icon="@drawable/couple"
+        android:title="بيانات الاب والام"/>
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/flag"
+        android:title="بيانات السكن"/>
+    <item
+        android:id="@+id/action_three"
+        android:icon="@drawable/money"
+        android:title="بيانات الماليه"/>
+    <item
+        android:id="@+id/action_four"
+        android:icon="@drawable/family"
+        android:title="افراد الاسره"/>
+
+
+
+
+
+</menu>
