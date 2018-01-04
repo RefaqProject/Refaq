@@ -6,24 +6,24 @@
     <item
         android:id="@+id/action_one"
         android:icon="@drawable/iconn"
-        android:title="البيانات الاساسيه"/>
+        android:title="@string/main_Data"/>
 
     <item
         android:id="@+id/action_five"
         android:icon="@drawable/couple"
-        android:title="بيانات الاب والام"/>
+        android:title="@string/data_father_mother"/>
     <item
         android:id="@+id/action_two"
         android:icon="@drawable/flag"
-        android:title="بيانات السكن"/>
+        android:title="@string/data_home"/>
     <item
         android:id="@+id/action_three"
         android:icon="@drawable/money"
-        android:title="بيانات الماليه"/>
+        android:title="@string/data_money"/>
     <item
         android:id="@+id/action_four"
         android:icon="@drawable/family"
-        android:title="افراد الاسره"/>
+        android:title="@string/num_family"/>
 
 
 

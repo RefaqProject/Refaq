@@ -49,7 +49,7 @@ public class SignInFragment extends Fragment {
                 } else if (TextUtils.isEmpty(password.getText())) {
                     Toast.makeText(getActivity(), "Enter password!", Toast.LENGTH_SHORT).show();
                 } else {
-                   if (username.getText().equals("1")) {
+                   if (password.getText().equals(1)) {
 
                        Intent i = new Intent(getActivity(), MainActivity.class);
                        startActivity(i);
