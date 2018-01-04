@@ -44,21 +44,21 @@ public class SignInFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                if (username.getText().equals("family") && password.getText().equals("123")) {
-                    Intent i = new Intent(getActivity(), Family.class);
-                    startActivity(i);
-                } else if (TextUtils.isEmpty(username.getText())) {
+               if (TextUtils.isEmpty(username.getText())) {
                     Toast.makeText(getActivity(), "Enter username !", Toast.LENGTH_SHORT).show();
                 } else if (TextUtils.isEmpty(password.getText())) {
                     Toast.makeText(getActivity(), "Enter password!", Toast.LENGTH_SHORT).show();
                 } else {
+                   if (username.getText().equals("1")) {
 
-                    progressBar.setVisibility(View.VISIBLE);
+                       Intent i = new Intent(getActivity(), MainActivity.class);
+                       startActivity(i);
+                   }else
+                    Toast.makeText(getActivity(), username.getText(), Toast.LENGTH_LONG).show();
                     Toast.makeText(getActivity(), "Login successfully", Toast.LENGTH_LONG).show();
 
-                    Intent i = new Intent(getActivity(), Family.class);
-                    startActivity(i);
-
+                   Intent i = new Intent(getActivity(), Family_2.class);
+                   startActivity(i);
 
                 }
 

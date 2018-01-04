@@ -24,7 +24,7 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/btn4"
+            android:background="@drawable/back"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -96,7 +96,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="@string/money_dman"
+                    android:text="@string/amount_guarantee"
 
                     android:textColor="#fff" />
 
@@ -202,7 +202,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="@string/number_person"
+                    android:text="@string/ID_acount"
 
 
                     android:textColor="#fff" />
@@ -237,7 +237,7 @@
                     android:background="@drawable/btn4"
                     android:clickable="true"
                     android:elevation="4dp"
-                    android:text="@string/year"
+                    android:text="@string/Annual_amount"
 
 
                     android:textColor="#fff" />

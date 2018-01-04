@@ -44,14 +44,16 @@
 
 
 
-
-
-    <string name="amount_retirement">مبلغ التقاعد</string>
-    <string name="money_dman">مبلغ الضمان</string>
-    <string name="name_bank">إسم البنك</string>
+    <string name="amount_retirement">مبلغ التقاعد  </string>
+    <string name="amount_guarantee">مبلغ الضمان</string>
+    <string name="name_bank"> إسم البنك</string>
     <string name="name_person">الإسم المعتمد للحساب</string>
-    <string name="number_person">رقم الحساب</string>
-    <string name="year">مقدار العادة السنوية</string>
+    <string name="ID_acount">رقم الحساب </string>
+    <string name="Annual_amount"> مقدار العادة السنوية</string>
+
+
+
+
 
 
     <string name="text">كل عام، تطلق "رفاق الخيرية" جملة من المشاريع خلال الشهر الفضيل، منها إفطار للمحتاجين، وتوفير سلة رمضان، وطباعة المصاحف، وسُقيا المصلين، وتوزيع زكاة الفطر والصدقات.</string>
