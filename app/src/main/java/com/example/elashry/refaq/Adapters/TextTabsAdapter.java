@@ -1,4 +1,4 @@
-package com.example.elashry.refaq;
+package com.example.elashry.refaq.Adapters;
 
 
 import android.support.v4.app.Fragment;

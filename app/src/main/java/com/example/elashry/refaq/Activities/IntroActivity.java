@@ -1,9 +1,11 @@
-package com.example.elashry.refaq;
+package com.example.elashry.refaq.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.elashry.refaq.R;
 
 public class IntroActivity extends AppCompatActivity {
 

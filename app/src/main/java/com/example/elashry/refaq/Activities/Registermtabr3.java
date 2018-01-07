@@ -1,10 +1,12 @@
-package com.example.elashry.refaq;
+package com.example.elashry.refaq.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+
+import com.example.elashry.refaq.R;
 
 
 public class Registermtabr3 extends AppCompatActivity {

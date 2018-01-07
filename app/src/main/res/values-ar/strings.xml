@@ -94,11 +94,13 @@
     <string name="Mother">الام</string>
     <string name="change_password">تغير كلمه المرورو</string>
     <string name="age">العمر</string>
-    <string name="main_Data">Main Data</string>
-    <string name="data_father_mother">Father Mother Data</string>
-    <string name="data_home" translatable="false">Home Data</string>
-    <string name="data_money">Money Data</string>
-    <string name="num_family">Family Data</string>
+    <string name="main_Data">البيانات الاساسيه</string>
+    <string name="data_father_mother">بيانات الاب والام</string>
+    <string name="data_home">بيانات السكن</string>
+    <string name="data_money">بيانات الماليه</string>
+    <string name="num_family">افراد الاسره</string>
+
+    <string name="Data_family">بينات الاسره</string>
 
 
 </resources>

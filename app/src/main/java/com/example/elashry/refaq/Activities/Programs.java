@@ -1,10 +1,12 @@
-package com.example.elashry.refaq;
+package com.example.elashry.refaq.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.elashry.refaq.Adapters.RecyclerAdapter;
+import com.example.elashry.refaq.R;
 
 
 public class Programs extends AppCompatActivity {

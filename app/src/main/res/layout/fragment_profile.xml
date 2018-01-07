@@ -7,7 +7,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.elashry.refaq.ProfileActivityFragment"
+    tools:context="com.example.elashry.refaq.Fragment.ProfileActivityFragment"
     tools:showIn="@layout/activity_profile">
 
 

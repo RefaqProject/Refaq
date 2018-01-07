@@ -1,15 +1,28 @@
-package com.example.elashry.refaq;
+package com.example.elashry.refaq.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationAdapter;
+import com.example.elashry.refaq.Fragment.F_Family_Fragment;
+import com.example.elashry.refaq.Fragment.F_Father_Fragment;
+import com.example.elashry.refaq.Fragment.F_Main_Fragment;
+import com.example.elashry.refaq.Fragment.F_home_Fragment;
+import com.example.elashry.refaq.Fragment.F_mony_Fragment;
+import com.example.elashry.refaq.R;
 
 
-public class Family_2 extends AppCompatActivity {
+public class Family_2 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private FloatingActionButton floatingActionButton;
 
     AHBottomNavigation bottomNavigation;
@@ -18,6 +31,18 @@ public class Family_2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_family_2);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
 
           bottomNavigation = (AHBottomNavigation) findViewById(R.id.bottom_navigation);
         final AHBottomNavigationAdapter adapter = new AHBottomNavigationAdapter(Family_2.this,R.menu.bottom_nav_menu);
@@ -112,6 +137,37 @@ public class Family_2 extends AppCompatActivity {
 
 
     }
-    
-    
+
+
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.news) {
+            // Handle the camera action
+            Intent i=new Intent(Family_2.this,News.class);
+            startActivity(i);
+        } else if (id == R.id.programs) {
+            Intent i=new Intent(Family_2.this,Programs.class);
+            startActivity(i);
+        } else if (id == R.id.about) {
+            Intent i=new Intent(Family_2.this,About.class);
+            startActivity(i);
+        }
+        else if (id == R.id.contact) {
+            Intent i=new Intent(Family_2.this,CallUs.class);
+            startActivity(i);
+
+
+        }else if (id == R.id.out) {
+            Intent i=new Intent(Family_2.this,IntroActivity.class);
+            startActivity(i);
+
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
 }

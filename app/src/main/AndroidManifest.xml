@@ -11,45 +11,47 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Family_2"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".Activities.Family_2"
 
+            android:label="hjkhkhkkj"
+            android:parentActivityName=".Activities.IntroActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.IntroActivity" />
         </activity>
         <activity
-            android:name=".AuthActivity"
+            android:name=".Activities.AuthActivity"
             android:label="@string/title_activity_auth"
-            android:parentActivityName=".IntroActivity"
+            android:parentActivityName=".Activities.IntroActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".IntroActivity" />
+                android:value=".Activities.IntroActivity" />
 
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:label="@string/title_activity_profile"
-            android:parentActivityName=".IntroActivity"
-            android:theme="@style/AppTheme">
+            android:parentActivityName=".Activities.IntroActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".IntroActivity" />
+                android:value=".Activities.IntroActivity" />
         </activity>
-        <activity android:name=".RegisterKafeel" />
-        <activity android:name=".RegisterFakeer" />
-        <activity android:name=".RegisterFamily" />
-        <activity android:name=".Registermtabr3" />
-        <activity android:name=".FamilyDetails" />
+        <activity android:name=".Activities.RegisterKafeel" />
+        <activity android:name=".Activities.RegisterFakeer" />
+        <activity android:name=".Activities.RegisterFamily" />
+        <activity android:name=".Activities.Registermtabr3" />
         <activity
-            android:name=".News"
+            android:name=".Activities.News"
             android:theme="@style/AppTheme" />
-        <activity android:name=".About" />
-        <activity android:name=".Programs" />
+        <activity android:name=".Activities.About" />
+        <activity android:name=".Activities.Programs" />
         <activity
-            android:name=".CallUs"
+            android:name=".Activities.CallUs"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Family" />
-        <activity android:name=".IntroActivity">
+        <activity android:name=".Activities.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

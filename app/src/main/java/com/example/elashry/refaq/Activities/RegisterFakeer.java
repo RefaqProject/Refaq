@@ -1,4 +1,4 @@
-package com.example.elashry.refaq;
+package com.example.elashry.refaq.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.example.elashry.refaq.R;
 
 import static android.view.View.GONE;
 import static android.view.View.INVISIBLE;

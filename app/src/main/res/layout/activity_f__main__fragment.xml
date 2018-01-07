@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.elashry.refaq.F_Family_Fragment">
+    tools:context="com.example.elashry.refaq.Fragment.F_Family_Fragment">
     <com.github.florent37.diagonallayout.DiagonalLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
